@@ -1,0 +1,121 @@
+body {
+  background-image: url("/public/pattern2.jpg");
+  background-size:400px 400px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  user-select: none;
+}
+
+h1.title {
+  font-size:70px;
+  letter-spacing: 15px;
+  color: firebrick;
+  margin:auto;
+  margin-top: 15px;
+}
+
+#categories {
+  margin: auto;
+  margin-top:10px;
+  height:fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  }
+
+  #categories > div {
+    height:200px;
+    width: 300px;
+  }
+
+  #category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:5px;
+    height: fit-content;
+    width: fit-content;
+  }
+
+ #title, #image, #link, #result {
+
+  background-color: firebrick;
+  color: white;
+  padding:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:3px;
+  }
+
+  #link {
+    background:none;
+  }
+
+  #title > h1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+
+  #image {
+    padding: 0px;
+    height: fit-content;
+  }
+
+  #category > div > img {
+    height:250px;
+    width:100%;
+    border-radius: 3px;
+   
+  }
+
+  #category > div > img:hover {
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+  }
+
+  button {
+    font-size:15px;
+    cursor: pointer;
+    padding: 6px;
+  }
+
+  #basket {
+    height:40px;
+    width:40px;
+    position: absolute;
+    top: 5px;
+    right:10px;
+  
+  }
+
+  #basket > img {
+    height: 100%;
+    width:100%;
+    
+  }
+
+  #basket > img:hover {
+    filter: drop-shadow(0 0 20px firebrick);
+    cursor: pointer;
+  }
+
+  #basket > img:active {
+    transform: scale(0.9);
+  }
+
+  h2 {
+    color:firebrick;
+    font-size: 15px;
+  }
+
+ 
